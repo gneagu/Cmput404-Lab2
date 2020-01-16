@@ -1,3 +1,6 @@
+#This code was copied from the Wednesday TAs (Zoe and Yourui)
+#in the lab
+
 #!/usr/bin/env python3
 
 import socket

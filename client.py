@@ -1,3 +1,6 @@
+#This code was copied from the Wednesday TAs (Zoe and Yourui)
+#in the lab
+
 import socket, sys
 
 def create_tcp_socket():
