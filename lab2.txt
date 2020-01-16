@@ -1,0 +1,29 @@
+#lab2.txt answeres
+
+Question 1: How do you specify a TCP socket in Python?
+
+
+Question 2: What is the difference between a client socket and a server socket in Python?
+-Server socket listens for connections, and client socket just connects to the server socket.
+-Server accepts connections, while client make connections
+
+Question 3: How do we instruct the OS to let us reuse the same bind port?
+-, socket.SO_REUSEADDR, 1
+
+
+Question 4: What information do we get about incoming connections?
+- You can get information about the connection object, and then the address. (ip and port)
+- From "Connect by", addr)
+
+Question 5: What is returned by recv() from the server after it is done sending the HTTP request?
+-full_data == conn.rec(BUFFER_SIZE)
+-If you send data to the server, it will return that data back to you. If send empty string, will receive empty string.
+- Will just send an empty string?
+
+Question 6: Provide a link to your code on GitHub.
+
+GOOD:
+echo_server.py
+client.py
+proxy_client.py
+proxy_server.py
