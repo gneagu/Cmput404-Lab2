@@ -7,7 +7,7 @@ import socket
 from multiprocessing import Pool
 
 HOST = 'localhost'
-PORT = 8013
+PORT = 8001
 BUFFER_SIZE = 2048
 
 payload = 'GET / HTTP/1.0\r\nHOST: www.google.com\r\n\r\n'

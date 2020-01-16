@@ -5,7 +5,7 @@
 import socket, time, sys
 
 HOST = ""
-PORT = 8010
+PORT = 8001
 BUFFER_SIZE = 1024
 
 def get_remote_ip(host):

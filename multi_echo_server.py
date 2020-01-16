@@ -7,7 +7,7 @@ import time
 from multiprocessing import Process
 
 HOST = ''
-PORT = 8008
+PORT = 8001
 BUFFER_SIZE = 1024
 
 def main():
